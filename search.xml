@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>bilibili自动升级</title>
+    <url>/Inkshow/Inkshow.github.io/4264658383.html</url>
+    <content><![CDATA[<h2 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h2><p>名字：bilibili-helper(哔哩哔哩助手)  </p>
+<p>项目地址：<a href="https://github.com/JunzhouLiu/BILIBILI-HELPER">https://github.com/JunzhouLiu/BILIBILI-HELPER</a></p>
+<p>功能：每天9点十分自动帮你完成每日任务（时间可修改</p>
+<h2 id="食用方法"><a href="#食用方法" class="headerlink" title="食用方法"></a>食用方法</h2><p>[fork]→[Settings]→[Secrets]→[New repository secret]→[输入cookie]→[Actions]→[AUTO_TASK_FOR_BILIBILI]→[run workflow]→[run workflow]</p>
+<h2 id="如何获取cookie"><a href="#如何获取cookie" class="headerlink" title="如何获取cookie"></a>如何获取cookie</h2><h3 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h3><p>[安装插件：<em>Cookie Quick Manager</em>]→[进入bilibili首页]→[点击插件图标]→[点击_Search Cookies for:<a href="http://www.bilibili.com_]→[找到_BILI_JCT_,_DEDEUSERID_,_SESSDATA_]">www.bilibili.com_]→[找到_BILI_JCT_,_DEDEUSERID_,_SESSDATA_]</a></p>
+<p>其它浏览器就自己去百度吧<del>(￣▽￣)</del>*</p>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>有什么不会的可以给我email（。＾▽＾）</p>
+<p>(。・∀・)ノ祝大家早日升级到绝对能力者</p>
+]]></content>
+      <tags>
+        <tag>github</tag>
+        <tag>开源项目</tag>
+      </tags>
+  </entry>
+</search>
