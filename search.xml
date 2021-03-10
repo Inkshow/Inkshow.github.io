@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>bilibili安卓客户端解锁画质apk</title>
-    <url>/2331588407.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>bilibili自动升级</title>
     <url>/4264658383.html</url>
     <content><![CDATA[<h2 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h2><p>名字：bilibili-helper(哔哩哔哩助手)  </p>
 <p>项目地址：<a href="https://github.com/JunzhouLiu/BILIBILI-HELPER">https://github.com/JunzhouLiu/BILIBILI-HELPER</a></p>
 <p>功能：每天9点十分自动帮你完成每日任务（时间可修改</p>
 <h2 id="食用方法"><a href="#食用方法" class="headerlink" title="食用方法"></a>食用方法</h2><p>[fork]→[Settings]→[Secrets]→[New repository secret]→[输入cookie]→[Actions]→[AUTO_TASK_FOR_BILIBILI]→[run workflow]→[run workflow]</p>
-<h2 id="如何获取cookie"><a href="#如何获取cookie" class="headerlink" title="如何获取cookie"></a>如何获取cookie</h2><h3 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h3><p>[安装插件：<em>Cookie Quick Manager</em>]→[进入bilibili首页]→[点击插件图标]→[点击Search Cookies for:<a href="http://www.bilibili.com]→[找到_BILI_JCT_,_DEDEUSERID_,_SESSDATA_]">www.bilibili.com]→[找到_BILI_JCT_,_DEDEUSERID_,_SESSDATA_]</a></p>
+<h2 id="如何获取cookie"><a href="#如何获取cookie" class="headerlink" title="如何获取cookie"></a>如何获取cookie</h2><h3 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h3><p>[安装插件：<em>Cookie Quick Manager</em>]→[进入bilibili首页]→[点击插件图标]→[点击Search Cookies for:<a href="http://www.bilibili.com]→[找到*BILI_JCT*,*DEDEUSERID*,*SESSDATA*]">www.bilibili.com]→[找到*BILI_JCT*,*DEDEUSERID*,*SESSDATA*]</a></p>
 <p>其它浏览器就自己去百度吧<del>(￣▽￣)</del>*</p>
 <h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>有什么不会的可以给我email（。＾▽＾）</p>
 <p>(。・∀・)ノ祝大家早日升级到绝对能力者</p>
@@ -20,6 +15,233 @@
       <tags>
         <tag>github</tag>
         <tag>开源项目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>windows软件推荐</title>
+    <url>/73045528.html</url>
+    <content><![CDATA[<h2 id="Bandizip"><a href="#Bandizip" class="headerlink" title="Bandizip"></a>Bandizip</h2><p>贼好用的压缩软件</p>
+<p><a href="http://blaleela.com/9ZJz">http://blaleela.com/9ZJz</a></p>
+<p>企业版产品密钥20380328-ENT000002-0E34A52561-166371E0<br>专业版产品密钥20380328-PRO0BFAEBFDAE23C425E-173E2DF1</p>
+<h2 id="PotPlayer"><a href="#PotPlayer" class="headerlink" title="PotPlayer"></a>PotPlayer</h2><p>用起来顺手的媒体播放器</p>
+<p><a href="http://blaleela.com/9Zze">http://blaleela.com/9Zze</a></p>
+<h2 id="Geek-Uninstall"><a href="#Geek-Uninstall" class="headerlink" title="Geek Uninstall"></a>Geek Uninstall</h2><p>一款小巧的卸载软件，</p>
+<p>可以删除应用创建的注册表残留</p>
+<p><a href="http://blaleela.com/9ZiM">http://blaleela.com/9ZiM</a></p>
+<p>37rj</p>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>没有了~还有什么实用的软件可以发我邮箱(～￣▽￣)～</p>
+]]></content>
+      <tags>
+        <tag>win软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何正确地搞♂机</title>
+    <url>/1225854288.html</url>
+    <content><![CDATA[<h1 id="Root介绍"><a href="#Root介绍" class="headerlink" title="Root介绍"></a>Root介绍</h1><blockquote>
+<p><strong>Root</strong> 在近几年的中文语境里是针对 Android  系统而言，它使得用户可以获取android操作系统的超级用户权限。root通常用于帮助用户越过手机制造商的限制，使得用户可以卸载手机制造商预装在手机中某些应用，以及运行一些需要超级用户权限的应用程序。Android系统的root与Apple iOS系统的越狱类似。</p>
+</blockquote>
+<p>——来自某乎</p>
+<h2 id="Root有什么用？"><a href="#Root有什么用？" class="headerlink" title="Root有什么用？"></a>Root有什么用？</h2><p>Root能让你彻底掌控你地手机，</p>
+<p>例如：</p>
+<ul>
+<li>删除系统内置应用</li>
+<li>更改开机动画</li>
+<li>使用Magisk、Xpoesd等框架的模块</li>
+<li><del>修改器</del></li>
+</ul>
+<h2 id="如何优雅地获取Root"><a href="#如何优雅地获取Root" class="headerlink" title="如何优雅地获取Root"></a>如何优雅地获取Root</h2><p>我们采取Magisk框架来获取Root权限，</p>
+<p>首先，你要确定你的手机品牌与型号。</p>
+<p>其次，在搜索引擎搜索你手机的驱动，下载并安装。</p>
+<p>Let’s look look(￣_,￣ )</p>
+<h4 id="手机品牌"><a href="#手机品牌" class="headerlink" title="手机品牌"></a>手机品牌</h4><p>查看你的手机下方或背面是否有该品牌的Logo</p>
+<p><del>不会吧不会吧，不会有人不知道自己的手机品牌是什么吧</del></p>
+<h4 id="手机型号"><a href="#手机型号" class="headerlink" title="手机型号"></a>手机型号</h4><ul>
+<li>进入设置</li>
+<li>找到关于手机</li>
+<li>查看型号</li>
+</ul>
+<h2 id="驱动"><a href="#驱动" class="headerlink" title="驱动"></a>驱动</h2><p>emmm，搜索，下载并安装(应该不会让我教吧</p>
+<h2 id="ADB"><a href="#ADB" class="headerlink" title="ADB"></a>ADB</h2><blockquote>
+<p>Adb——安卓调试桥</p>
+</blockquote>
+<ol>
+<li>秋之盒</li>
+</ol>
+<p>链接：<a href="http://blaleela.com/9col">http://blaleela.com/9col</a></p>
+<p>提取码：b2sk</p>
+<p>建议使用秋之盒，自带adb，免去配置环境变量~</p>
+<p>打开你手机上的设置，点击关于手机，找到版本号(。・∀・)ノ</p>
+<p>狂点他！直到他提示你已进入开发者模式</p>
+<p>返回，进入开发者模式。</p>
+<p>找到USB调试，把他打开╰(￣ω￣ｏ)</p>
+<p>点开秋之盒下面的ADB命令行，选择CMD就行</p>
+<p>插上数据线，手机有可能会弹出一个授权，</p>
+<p>把永久授权勾上，点允许。</p>
+<p>（没有的，那就是不用授权直接使用</p>
+<p>这时候，输入<strong>adb devices</strong>,</p>
+<p>看看输出是否为你的手机的序列号+offline</p>
+<p>若输出是List of devices attached，很大可能是你的驱动没有装好~</p>
+<p>重新换一个驱动下载再安装吧╮(╯-╰)╭</p>
+<ol start="2">
+<li>ADB工具包(必须带Fastboot)</li>
+</ol>
+<p>链接：<a href="http://blaleela.com/9crz">http://blaleela.com/9crz</a></p>
+<p>提取码：bou9</p>
+<p>下载后按照该教程配置ADB[<a href="https://blog.csdn.net/ainongmin1hao/article/details/82049757]">https://blog.csdn.net/ainongmin1hao/article/details/82049757]</a></p>
+<p>其实解压后按住Shift再在空白处按右键，点在此处打开CMD/Powershell也行[Doge]</p>
+<p>配置好后，如果CMD输入<strong>adb devices</strong>后输出的是：List of devices attached</p>
+<p>那么恭喜你，配置成功了ヽ(✿ﾟ▽ﾟ)ノ</p>
+<p>配置完成后，打开你的手机里的设置</p>
+<p>点击关于版本，</p>
+<p>狂点版本号，</p>
+<p>直到提示已进入开发者模式</p>
+<p>返回主页面，进入开发者模式，打开USB调试</p>
+<p>OK</p>
+<p>插上数据线~授权，再输入<strong>adb devices</strong></p>
+<p>如果输出的是你的序列号+offline，那么就成功了~</p>
+<p>注：末尾的offline表示是连接正常，不是offline就可能失败了</p>
+<h2 id="Bootloader锁"><a href="#Bootloader锁" class="headerlink" title="Bootloader锁"></a>Bootloader锁</h2><p>这个叫Bootloader锁的东西，我们一般称它为bl锁。</p>
+<p>为什么他后面有个锁字呢？</p>
+<p>当然，他锁住了我们搞♂机的脚步，</p>
+<p>╰（‵□′）╯岂可修，你可能想问为什么要这样呢？</p>
+<p>那当然是厂商的******************</p>
+<p>首先去百度下你的手机品牌+bootloader吧。</p>
+<p>不解锁一切都是空谈（；´д｀）ゞ</p>
+<h2 id="Magisk"><a href="#Magisk" class="headerlink" title="Magisk"></a>Magisk</h2><p>Magisk这个框架绝对够你用一辈子了</p>
+<p>Magisk Hide可以隐藏Root！！</p>
+<p>或许你不知道这是什么概念</p>
+<p>这样跟你说吧</p>
+<p>很多软件为了安全考虑都会检测你的手机是否已经root</p>
+<p>因为root过后能使用修改器，Xpoesd Hook等骚操作</p>
+<p>哈哈，有了Magisk Hide可以绕过大多数软件检测，</p>
+<p>还可以安装增强模块，起飞~（￣︶￣）↗　</p>
+<p>正文：</p>
+<p>下载并安装magisk软件，链接地址：<a href="http://blaleela.com/9eH4">http://blaleela.com/9eH4</a></p>
+<p>下载后你应该会看到软件一直在加载（因为总所周知的原因:<del>某不愿透露姓名的什么火什么城</del></p>
+<p>解决方法：</p>
+<ol>
+<li>Sience上网</li>
+<li>更换源地址</li>
+</ol>
+<p>我就只说2了，</p>
+<p>打开magisk的设置，</p>
+<p>点更新通道，自定义，</p>
+<p>输入如下链接：<a href="https://gitee.com/QingFeiDeiYi/Magisk/raw/master/stable.json">https://gitee.com/QingFeiDeiYi/Magisk/raw/master/stable.json</a></p>
+<p>好了，返回主页面，往下滑进行刷新</p>
+<p>OK(￣▽￣)”已经可以了</p>
+<p>注意：下面的所有操作都是建立在已经解锁bootloader的情况下进行的！（除了直接Root安装</p>
+<h2 id="Magisk的rec安装"><a href="#Magisk的rec安装" class="headerlink" title="Magisk的rec安装"></a>Magisk的rec安装</h2><p>rec：recovery</p>
+<p>你可以理解为系统的PE，拥有最高的权限</p>
+<p>在rec下我劝各位年轻人不要乱搞，好自为之！</p>
+<p>否则手机成砖了，我可不管<del>(￣▽￣)</del>*</p>
+<p>首先将magisk的zip包下载到手机中（magisk默认保存目录是在Download，</p>
+<p>然后在搜索引擎上搜索并下载到自己机型的第三方rec，</p>
+<p>或者你可以在TWRP官网碰碰运气：<em>twrp官网：<a href="http://blaleela.com/9fFm,%E8%BF%9B%E5%85%A5%E5%90%8E%E7%82%B9%E5%87%BBDevices%EF%BC%8C%E5%9C%A8%E9%87%8C%E9%9D%A2%E6%89%BE%E6%89%BE%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%90%A7">http://blaleela.com/9fFm,进入后点击Devices，在里面找找你的手机吧</a>~</em></p>
+<p>下载后，将你的adb打开，输入以下命令：</p>
+<blockquote>
+<p>adb reboot bootloader</p>
+<p>fastboot flash recovery 你下载到的rec文件路径(最好不带中文名,我也没试过)</p>
+<p>fastboot reboot 你下载到的rec文件路径</p>
+</blockquote>
+<p>其中 adb reboot bootloader 后要等待你手机进入fastboot界面才能输入下面的命令</p>
+<p>然后，如果你的rec是英文的话就该点击<strong>Install</strong>，中文则该是<strong>安装</strong></p>
+<p>点击后，选择你下载的magisk压缩包，等待完成，重启。</p>
+<p>重启就可以进入magisk看到已安装啦~</p>
+<h2 id="Magisk的修补镜像安装"><a href="#Magisk的修补镜像安装" class="headerlink" title="Magisk的修补镜像安装"></a>Magisk的修补镜像安装</h2><p>这个的话，就必须找到你手机的boot，</p>
+<p>一般将你的手机刷机的压缩文件解包一下就能看到，</p>
+<p>拥有不确定性，不推荐尝试！</p>
+<p>正文：</p>
+<ul>
+<li><p>进入magisk</p>
+</li>
+<li><p>点击修补镜像</p>
+</li>
+<li><p>选择你的boot</p>
+<blockquote>
+<p>（修补后的镜像放置在Download文件夹</p>
+</blockquote>
+</li>
+<li><p>将boot推送至电脑</p>
+</li>
+<li><p>电脑打开adb</p>
+</li>
+<li><p>输入以下命令</p>
+<blockquote>
+<p>adb reboot bootloader</p>
+<p>fastboot flash boot 你的boot文件路径</p>
+<p>fastboot reboot</p>
+</blockquote>
+</li>
+<li><p>完成</p>
+</li>
+</ul>
+<p>总之还是挺简单的，但别急，接下来的更简单！</p>
+<h2 id="Magisk的直接安装"><a href="#Magisk的直接安装" class="headerlink" title="Magisk的直接安装"></a>Magisk的直接安装</h2><p>直接安装，刚刚做完上面操作的你是不是想骂娘了</p>
+<p>2333o(<em>￣▽￣</em>)ブ先别急，这个操作仅限于个别自带root的系统</p>
+<p>操作更是简单：</p>
+<ul>
+<li>进入magisk</li>
+<li>点击安装</li>
+<li>点击直接安装</li>
+<li>给magisk授权</li>
+<li>等待重启</li>
+<li>ok</li>
+</ul>
+<p>当然这<strong>仅限于个别自带root的系统</strong></p>
+<p>并且有可能你的系统的root权限没有给完整也有可能无法直接安装</p>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>总之，rec安装是我觉得风险最小的安装方法。</p>
+<p>如果大家还想看什么搞机的文章啊，请给我发邮件哦~</p>
+<p>还有</p>
+<p><strong>不要去下载什么一键root</strong></p>
+<p><strong>不要去下载什么一键root</strong></p>
+<p><strong>不要去下载什么一键root</strong></p>
+<p>一键root只有少部分是只给你纯净的root</p>
+<p>很多一键root都是在你手机扎根了，很难清除，并且不时给你手机安装些流氓软件（点名批评某ingroot和某60root</p>
+<p>啊啊我要去睡觉(っ °Д °;)っ</p>
+]]></content>
+      <tags>
+        <tag>android</tag>
+        <tag>搞机</tag>
+        <tag>root</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安卓app推荐</title>
+    <url>/2561031547.html</url>
+    <content><![CDATA[<h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><p>这个app，我把他说是安卓里看小说的最nb的软件不过分吧。</p>
+<p>下载链接：<a href="http://blaleela.com/4nCj">http://blaleela.com/4nCj</a></p>
+<p>书源：<a href="http://blaleela.com/4nI1">http://blaleela.com/4nI1</a></p>
+<h2 id="via"><a href="#via" class="headerlink" title="via"></a>via</h2><p>近700k的浏览器，该有的他都有，真正的简洁~</p>
+<p>采用的内核是系统自带的webview</p>
+<p><a href="http://blaleela.com/9Wk4">http://blaleela.com/9Wk4</a></p>
+<h2 id="一个木函"><a href="#一个木函" class="headerlink" title="一个木函"></a>一个木函</h2><p>一个有许多功能的工具箱~</p>
+<p><a href="http://blaleela.com/9WCv">官网</a></p>
+<h2 id="Alook"><a href="#Alook" class="headerlink" title="Alook"></a>Alook</h2><p>这个浏览器自带内核，</p>
+<p>有视频倍速播放和悬浮播放<del>（追番党狂喜</del></p>
+<p><a href="http://blaleela.com/9XBZ">http://blaleela.com/9XBZ</a></p>
+<h2 id="酷安"><a href="#酷安" class="headerlink" title="酷安"></a>酷安</h2><p>基佬的聚集地（雾</p>
+<p>搞机什么的可以来看看~</p>
+<p><a href="http://blaleela.com/9Wu9">http://blaleela.com/9Wu9</a></p>
+<h2 id="IDM"><a href="#IDM" class="headerlink" title="IDM+"></a>IDM+</h2><p>没错，IDM也有移动端</p>
+<p>多线程下载，不用多说吧~</p>
+<p><a href="http://blaleela.com/9Z3q">http://blaleela.com/9Z3q</a></p>
+<p>9btk</p>
+<h2 id="AutoJS"><a href="#AutoJS" class="headerlink" title="AutoJS"></a>AutoJS</h2><p>自动化脚本，用处很多</p>
+<p>安卓7以上开启无障碍食用~</p>
+<p><a href="http://blaleela.com/9Yxj">http://blaleela.com/9Yxj</a></p>
+<p>a1k7</p>
+<h2 id="薄暮微光"><a href="#薄暮微光" class="headerlink" title="薄暮微光"></a>薄暮微光</h2><p>晚上玩手机必备，</p>
+<p>不会被屏幕刺瞎啦（畏光狂喜</p>
+<p><a href="http://blaleela.com/9Z3I">http://blaleela.com/9Z3I</a></p>
+<p>86gt</p>
+<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>wu，就这样，我常用的软件就这些了。</p>
+<p>这个adfly影响你们体验也是很抱歉，</p>
+<p>但没办法，我已经入不敷出了QAQ</p>
+<p>还有什么好用的app可以发我邮箱，我会添上的</p>
+]]></content>
+      <tags>
+        <tag>安卓软件</tag>
       </tags>
   </entry>
 </search>
