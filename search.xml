@@ -1,6 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Termux如何使用Hexo搭建自己的博客</title>
+    <url>/3015271919.html</url>
+    <content><![CDATA[<h1 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h1><blockquote>
+<p>Hexo是个快速，简洁且高效的博客框架。Hexo使用Markdown解析文章，在几秒内生成静态网页。</p>
+</blockquote>
+<p>——copy至Hexo官网</p>
+<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><ul>
+<li><p>首先安装好Termux</p>
+</li>
+<li><p>切换清华源</p>
+<blockquote>
+<p>sed -i ‘s@^(deb.*stable main)$@#\1\ndeb <a href="https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24">https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24</a> stable main@’ $PREFIX/etc/apt/sources.list<br>sed -i ‘s@^(deb.*games stable)$@#\1\ndeb <a href="https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24">https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24</a> games stable@’ $PREFIX/etc/apt/sources.list.d/game.list<br>sed -i ‘s@^(deb.*science stable)$@#\1\ndeb <a href="https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24">https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24</a> science stable@’ $PREFIX/etc/apt/sources.list.d/science.list<br>apt update &amp;&amp; apt upgrade</p>
+</blockquote>
+</li>
+<li><p>安装Node.js</p>
+<blockquote>
+<p>pkg install nodejs</p>
+</blockquote>
+</li>
+<li><p>安装git</p>
+<blockquote>
+<p>pkg install git</p>
+</blockquote>
+</li>
+<li><p>安装Hexo</p>
+<blockquote>
+<p>npm install -g hexo-cli</p>
+</blockquote>
+</li>
+<li><p>安装deployer git</p>
+<blockquote>
+<p>npm install hexo-deployer-git –save</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><ul>
+<li><p>切换目录至包括博客文件夹的路径</p>
+<blockquote>
+<p>#假如你的博客路径为/storage/emulated/0/Myblog/</p>
+<p>#那么我们要切换的路径就为/storage/emulated/0/</p>
+<p>cd /storage/emulated/0/</p>
+</blockquote>
+</li>
+<li><p>初始化博客</p>
+<blockquote>
+<p>hexo init Myblog</p>
+</blockquote>
+</li>
+<li><p>编辑_config.yml</p>
+<blockquote>
+<p>按照该<a href="http://apticirl.com/bYX">链接</a>编辑</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="添加文章"><a href="#添加文章" class="headerlink" title="添加文章"></a>添加文章</h2><blockquote>
+<p>输入 hexo new 文章名 即可</p>
+</blockquote>
+<p>进行编辑时需要Markdown编辑器</p>
+<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>在伟大的因特网上下载主题后进行如下操作就行</p>
+<ul>
+<li><p>重命名</p>
+</li>
+<li><p>复制或剪贴进themes文件夹</p>
+</li>
+<li><p>修改_config.yml</p>
+</li>
+<li><p>在theme:处修改为</p>
+<blockquote>
+<p>theme: 重命名后的名字</p>
+<p>#注意，冒号后必须添加一个空格</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="Hexo-部署至Github"><a href="#Hexo-部署至Github" class="headerlink" title="Hexo 部署至Github"></a>Hexo 部署至Github</h2><ul>
+<li><p>进入GitHub</p>
+</li>
+<li><p>新建一个项目</p>
+</li>
+<li><p>项目名称填为:你的用户名.github.io</p>
+<h3 id="配置-deploy"><a href="#配置-deploy" class="headerlink" title="配置 deploy"></a>配置 deploy</h3><h4 id="获取Github-token"><a href="#获取Github-token" class="headerlink" title="获取Github token"></a>获取Github token</h4><ul>
+<li>进入Github</li>
+<li>点击右上角的头像</li>
+<li>点击_Settings_</li>
+<li>点击_Developer settings_下的_Personal access tokens_</li>
+<li>在_Token description_下方填写名字</li>
+<li>将下方的单选框全部勾上</li>
+<li>最后点击_Generate token_</li>
+<li>将那串token复制</li>
+</ul>
+<h4 id="修改Hexo部署设置"><a href="#修改Hexo部署设置" class="headerlink" title="修改Hexo部署设置"></a>修改Hexo部署设置</h4><ul>
+<li><p>打开博客根目录的_config.yml</p>
+</li>
+<li><p>搜索deploy</p>
+</li>
+<li><p>将deploy: 以及下方的repo改为</p>
+<blockquote>
+<p>deploy:<br>  type: git<br>  repo:  https://你的<a href="mailto:&#116;&#111;&#x6b;&#x65;&#x6e;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#46;&#99;&#111;&#109;">&#116;&#111;&#x6b;&#x65;&#x6e;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#46;&#99;&#111;&#109;</a>/你的用户名/你的用户名.github.io<br>  branch: master</p>
+</blockquote>
+</li>
+<li><p>进行Hexo“三连”</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Hexo三连"><a href="#Hexo三连" class="headerlink" title="Hexo三连"></a>Hexo三连</h3><blockquote>
+<p>hexo clean</p>
+<p>hexo g</p>
+<p>hexo d</p>
+</blockquote>
+<p>hexo clean 指清除缓存和生成的静态页面</p>
+<p>hexo g 生成静态页面</p>
+<p>hexo d 部署</p>
+<h1 id="The-End"><a href="#The-End" class="headerlink" title="The End"></a>The End</h1><p>嘿嘿嘿，终于写完了(・∀・(・∀・(・∀・*)</p>
+<p>Termux真的很强，功能实在太多了</p>
+<p>建议大家都去康康</p>
+<p>还可以装Linux和Windows<del>(只要你手机配置带的动[doge])</del></p>
+]]></content>
+      <tags>
+        <tag>Termux</tag>
+        <tag>Hexo</tag>
+        <tag>android</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>bilibili自动升级</title>
     <url>/4264658383.html</url>
     <content><![CDATA[<h2 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h2><p>名字：bilibili-helper(哔哩哔哩助手)  </p>
@@ -137,7 +261,7 @@
 <p>否则手机成砖了，我可不管<del>(￣▽￣)</del>*</p>
 <p>首先将magisk的zip包下载到手机中（magisk默认保存目录是在Download，</p>
 <p>然后在搜索引擎上搜索并下载到自己机型的第三方rec，</p>
-<p>或者你可以在TWRP官网碰碰运气：<em>twrp官网：<a href="http://blaleela.com/9fFm,%E8%BF%9B%E5%85%A5%E5%90%8E%E7%82%B9%E5%87%BBDevices%EF%BC%8C%E5%9C%A8%E9%87%8C%E9%9D%A2%E6%89%BE%E6%89%BE%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%90%A7">http://blaleela.com/9fFm,进入后点击Devices，在里面找找你的手机吧</a>~</em></p>
+<p>或者你可以在TWRP官网碰碰运气：<em>twrp官网：[<a href="http://blaleela.com/9fFm],%E8%BF%9B%E5%85%A5%E5%90%8E%E7%82%B9%E5%87%BBDevices%EF%BC%8C%E5%9C%A8%E9%87%8C%E9%9D%A2%E6%89%BE%E6%89%BE%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%90%A7">http://blaleela.com/9fFm],进入后点击Devices，在里面找找你的手机吧</a>~</em></p>
 <p>下载后，将你的adb打开，输入以下命令：</p>
 <blockquote>
 <p>adb reboot bootloader</p>
@@ -204,6 +328,7 @@
         <tag>android</tag>
         <tag>搞机</tag>
         <tag>root</tag>
+        <tag>Magisk</tag>
       </tags>
   </entry>
   <entry>
@@ -235,6 +360,9 @@
 <p>不会被屏幕刺瞎啦（畏光狂喜</p>
 <p><a href="http://blaleela.com/9Z3I">http://blaleela.com/9Z3I</a></p>
 <p>86gt</p>
+<h2 id="UTermux"><a href="#UTermux" class="headerlink" title="UTermux"></a>UTermux</h2><p>Termux，用来模拟Linux的东西</p>
+<p>可玩性很强，基本上Linux能做的他都能干。</p>
+<p>链接：<a href="http://apticirl.com/Y9n">http://apticirl.com/Y9n</a></p>
 <h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>wu，就这样，我常用的软件就这些了。</p>
 <p>这个adfly影响你们体验也是很抱歉，</p>
 <p>但没办法，我已经入不敷出了QAQ</p>
