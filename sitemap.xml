@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://inksblog.xyz/about/index.html</loc>
+    
+    <lastmod>2021-03-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://inksblog.xyz/archives/index.html</loc>
+    
+    <lastmod>2021-03-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://inksblog.xyz/4264658383.html</loc>
+    
+    <lastmod>2021-03-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://inksblog.xyz/1225854288.html</loc>
+    
+    <lastmod>2021-03-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://inksblog.xyz/3015271919.html</loc>
     
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://inksblog.xyz/3446543600.html</loc>
+    
+    <lastmod>2021-03-13</lastmod>
     
   </url>
   
@@ -12,20 +47,6 @@
     <loc>http://inksblog.xyz/2561031547.html</loc>
     
     <lastmod>2021-03-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://inksblog.xyz/1225854288.html</loc>
-    
-    <lastmod>2021-03-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://inksblog.xyz/4264658383.html</loc>
-    
-    <lastmod>2021-03-10</lastmod>
     
   </url>
   
@@ -50,17 +71,10 @@
     
   </url>
   
-  <url>
-    <loc>http://inksblog.xyz/about/index.html</loc>
-    
-    <lastmod>2021-03-10</lastmod>
-    
-  </url>
-  
 
   <url>
     <loc>http://inksblog.xyz/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -68,70 +82,91 @@
   
   <url>
     <loc>http://inksblog.xyz/tags/Termux/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/Hexo/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/android/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/github/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/Os-project/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/winexe/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://inksblog.xyz/tags/Minecraft/</loc>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://inksblog.xyz/tags/Python/</loc>
+    <lastmod>2021-03-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://inksblog.xyz/tags/turtle/</loc>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/%E6%90%9E%E6%9C%BA/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/root/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/Magisk/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://inksblog.xyz/tags/addapp/</loc>
-    <lastmod>2021-03-11</lastmod>
+    <lastmod>2021-03-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

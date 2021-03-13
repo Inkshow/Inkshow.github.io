@@ -7,7 +7,7 @@
 <p>Hexo是个快速，简洁且高效的博客框架。Hexo使用Markdown解析文章，在几秒内生成静态网页。</p>
 </blockquote>
 <p>——copy至Hexo官网</p>
-<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><ul>
+<h1 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h1><ul>
 <li><p>首先安装好Termux</p>
 </li>
 <li><p>切换清华源</p>
@@ -36,7 +36,7 @@
 </blockquote>
 </li>
 </ul>
-<h2 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h2><ul>
+<h1 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h1><ul>
 <li><p>切换目录至包括博客文件夹的路径</p>
 <blockquote>
 <p>#假如你的博客路径为/storage/emulated/0/Myblog/</p>
@@ -55,11 +55,11 @@
 </blockquote>
 </li>
 </ul>
-<h2 id="添加文章"><a href="#添加文章" class="headerlink" title="添加文章"></a>添加文章</h2><blockquote>
+<h1 id="添加文章"><a href="#添加文章" class="headerlink" title="添加文章"></a>添加文章</h1><blockquote>
 <p>输入 hexo new 文章名 即可</p>
 </blockquote>
 <p>进行编辑时需要Markdown编辑器</p>
-<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>在伟大的因特网上下载主题后进行如下操作就行</p>
+<h1 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h1><p>在伟大的因特网上下载主题后进行如下操作就行</p>
 <ul>
 <li><p>重命名</p>
 </li>
@@ -74,13 +74,13 @@
 </blockquote>
 </li>
 </ul>
-<h2 id="Hexo-部署至Github"><a href="#Hexo-部署至Github" class="headerlink" title="Hexo 部署至Github"></a>Hexo 部署至Github</h2><ul>
+<h1 id="Hexo-部署至Github"><a href="#Hexo-部署至Github" class="headerlink" title="Hexo 部署至Github"></a>Hexo 部署至Github</h1><ul>
 <li><p>进入GitHub</p>
 </li>
 <li><p>新建一个项目</p>
 </li>
 <li><p>项目名称填为:你的用户名.github.io</p>
-<h3 id="配置-deploy"><a href="#配置-deploy" class="headerlink" title="配置 deploy"></a>配置 deploy</h3><h4 id="获取Github-token"><a href="#获取Github-token" class="headerlink" title="获取Github token"></a>获取Github token</h4><ul>
+<h1 id="配置-deploy"><a href="#配置-deploy" class="headerlink" title="配置 deploy"></a>配置 deploy</h1><h2 id="获取Github-token"><a href="#获取Github-token" class="headerlink" title="获取Github token"></a>获取Github token</h2><ul>
 <li>进入Github</li>
 <li>点击右上角的头像</li>
 <li>点击_Settings_</li>
@@ -90,14 +90,14 @@
 <li>最后点击_Generate token_</li>
 <li>将那串token复制</li>
 </ul>
-<h4 id="修改Hexo部署设置"><a href="#修改Hexo部署设置" class="headerlink" title="修改Hexo部署设置"></a>修改Hexo部署设置</h4><ul>
+<h2 id="修改Hexo部署设置"><a href="#修改Hexo部署设置" class="headerlink" title="修改Hexo部署设置"></a>修改Hexo部署设置</h2><ul>
 <li><p>打开博客根目录的_config.yml</p>
 </li>
 <li><p>搜索deploy</p>
 </li>
 <li><p>将deploy: 以及下方的repo改为</p>
 <blockquote>
-<p>deploy:<br>  type: git<br>  repo:  https://你的<a href="mailto:&#116;&#111;&#x6b;&#x65;&#x6e;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#46;&#99;&#111;&#109;">&#116;&#111;&#x6b;&#x65;&#x6e;&#x40;&#x67;&#105;&#x74;&#104;&#x75;&#98;&#46;&#99;&#111;&#109;</a>/你的用户名/你的用户名.github.io<br>  branch: master</p>
+<p>deploy:<br>  type: git<br>  repo:  https://你的<a href="mailto:&#x74;&#111;&#107;&#101;&#x6e;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#109;">&#x74;&#111;&#107;&#101;&#x6e;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#109;</a>/你的用户名/你的用户名.github.io<br>  branch: master</p>
 </blockquote>
 </li>
 <li><p>进行Hexo“三连”</p>
@@ -105,7 +105,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="Hexo三连"><a href="#Hexo三连" class="headerlink" title="Hexo三连"></a>Hexo三连</h3><blockquote>
+<h1 id="Hexo三连"><a href="#Hexo三连" class="headerlink" title="Hexo三连"></a>Hexo三连</h1><blockquote>
 <p>hexo clean</p>
 <p>hexo g</p>
 <p>hexo d</p>
@@ -127,13 +127,13 @@
   <entry>
     <title>bilibili自动升级</title>
     <url>/4264658383.html</url>
-    <content><![CDATA[<h2 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h2><p>名字：bilibili-helper(哔哩哔哩助手)  </p>
+    <content><![CDATA[<h1 id="相关"><a href="#相关" class="headerlink" title="相关"></a>相关</h1><p>名字：bilibili-helper(哔哩哔哩助手)  </p>
 <p>项目地址：<a href="https://github.com/JunzhouLiu/BILIBILI-HELPER">https://github.com/JunzhouLiu/BILIBILI-HELPER</a></p>
 <p>功能：每天9点十分自动帮你完成每日任务（时间可修改</p>
-<h2 id="食用方法"><a href="#食用方法" class="headerlink" title="食用方法"></a>食用方法</h2><p>[fork]→[Settings]→[Secrets]→[New repository secret]→[输入cookie]→[Actions]→[AUTO_TASK_FOR_BILIBILI]→[run workflow]→[run workflow]</p>
+<h1 id="食用方法"><a href="#食用方法" class="headerlink" title="食用方法"></a>食用方法</h1><p>[fork]→[Settings]→[Secrets]→[New repository secret]→[输入cookie]→[Actions]→[AUTO_TASK_FOR_BILIBILI]→[run workflow]→[run workflow]</p>
 <h2 id="如何获取cookie"><a href="#如何获取cookie" class="headerlink" title="如何获取cookie"></a>如何获取cookie</h2><h3 id="Firefox"><a href="#Firefox" class="headerlink" title="Firefox"></a>Firefox</h3><p>[安装插件：<em>Cookie Quick Manager</em>]→[进入bilibili首页]→[点击插件图标]→[点击Search Cookies for:<a href="http://www.bilibili.com]→[找到*BILI_JCT*,*DEDEUSERID*,*SESSDATA*]">www.bilibili.com]→[找到*BILI_JCT*,*DEDEUSERID*,*SESSDATA*]</a></p>
 <p>其它浏览器就自己去百度吧<del>(￣▽￣)</del>*</p>
-<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>有什么不会的可以给我email（。＾▽＾）</p>
+<h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>有什么不会的可以给我email（。＾▽＾）</p>
 <p>(。・∀・)ノ祝大家早日升级到绝对能力者</p>
 ]]></content>
       <tags>
@@ -160,6 +160,96 @@
       </tags>
   </entry>
   <entry>
+    <title>在Minecraft中使用Python的turtle进行绘画</title>
+    <url>/3446543600.html</url>
+    <content><![CDATA[<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>raspberryjammod是一个可以在Minecraft运行Python turtle的我的世界mod</p>
+<p>项目地址： <a href="https://github.com/arpuss/raspberryjammod">https://github.com/arpuss/raspberryjammod</a></p>
+<blockquote>
+<p>如果下载慢的可以下这个：<a href="http://apticirl.com/3bSW">http://apticirl.com/3bSW</a></p>
+<p>提取码：dnmk</p>
+</blockquote>
+<h1 id="食用方法"><a href="#食用方法" class="headerlink" title="食用方法"></a>食用方法</h1><ul>
+<li><p>安装Minecraft和Forge</p>
+</li>
+<li><p>从github将项目下载至本地</p>
+</li>
+<li><p>解压raspberryjammod-master.zip</p>
+</li>
+<li><p>解压mods.zip</p>
+</li>
+<li><p>从中选择你的Minecraft版本</p>
+</li>
+<li><p>将里面的RaspberryJamMod.jar放进.minecraft\mods</p>
+</li>
+<li><p>将raspberryjammod-master下的mcpipy文件夹复制进.minecraft</p>
+</li>
+<li><p>启动Minecraft</p>
+</li>
+<li><p>输入/py egg测试是否安装成功</p>
+<blockquote>
+<p>如果生成了一个巨大的金蛋那么就成功了~</p>
+</blockquote>
+</li>
+<li><p>输入/py turtleconsole进入python交互</p>
+</li>
+<li><p>接下来就可以自由的使用turtle在Minecraft玩了</p>
+</li>
+</ul>
+<h1 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h1><table>
+<thead>
+<tr>
+<th align="left">命令</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">t.turtle(str)</td>
+<td>str：生物大写英文,输入后相当于python turtle中的小箭头</td>
+</tr>
+<tr>
+<td align="left">t.go(int)</td>
+<td>int：前进的格数</td>
+</tr>
+<tr>
+<td align="left">t.back(int)</td>
+<td>int：后退的格数</td>
+</tr>
+<tr>
+<td align="left">t.right(int)</td>
+<td>int：右转的角度</td>
+</tr>
+<tr>
+<td align="left">t.left(int)</td>
+<td>int：左转的角度</td>
+</tr>
+<tr>
+<td align="left">t.up(int)</td>
+<td>int：向上的角度</td>
+</tr>
+<tr>
+<td align="left">t.down(int)</td>
+<td>int：向下的角度</td>
+</tr>
+<tr>
+<td align="left">t.goto(x,y,z)</td>
+<td>（还不知道xyz到底指的是哪里[doge]</td>
+</tr>
+<tr>
+<td align="left">t.block=str</td>
+<td>str：大写的方块英文</td>
+</tr>
+</tbody></table>
+<h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>还可以把你写的py复制进.minecraft\mcpipy里玩</p>
+<p>就这样~</p>
+]]></content>
+      <tags>
+        <tag>开源项目</tag>
+        <tag>Minecraft</tag>
+        <tag>Python</tag>
+        <tag>turtle</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何正确地搞♂机</title>
     <url>/1225854288.html</url>
     <content><![CDATA[<h1 id="Root介绍"><a href="#Root介绍" class="headerlink" title="Root介绍"></a>Root介绍</h1><blockquote>
@@ -178,15 +268,15 @@
 <p>首先，你要确定你的手机品牌与型号。</p>
 <p>其次，在搜索引擎搜索你手机的驱动，下载并安装。</p>
 <p>Let’s look look(￣_,￣ )</p>
-<h4 id="手机品牌"><a href="#手机品牌" class="headerlink" title="手机品牌"></a>手机品牌</h4><p>查看你的手机下方或背面是否有该品牌的Logo</p>
+<h3 id="手机品牌"><a href="#手机品牌" class="headerlink" title="手机品牌"></a>手机品牌</h3><p>查看你的手机下方或背面是否有该品牌的Logo</p>
 <p><del>不会吧不会吧，不会有人不知道自己的手机品牌是什么吧</del></p>
-<h4 id="手机型号"><a href="#手机型号" class="headerlink" title="手机型号"></a>手机型号</h4><ul>
+<h3 id="手机型号"><a href="#手机型号" class="headerlink" title="手机型号"></a>手机型号</h3><ul>
 <li>进入设置</li>
 <li>找到关于手机</li>
 <li>查看型号</li>
 </ul>
-<h2 id="驱动"><a href="#驱动" class="headerlink" title="驱动"></a>驱动</h2><p>emmm，搜索，下载并安装(应该不会让我教吧</p>
-<h2 id="ADB"><a href="#ADB" class="headerlink" title="ADB"></a>ADB</h2><blockquote>
+<h3 id="驱动"><a href="#驱动" class="headerlink" title="驱动"></a>驱动</h3><p>emmm，搜索，下载并安装(应该不会让我教吧</p>
+<h3 id="ADB"><a href="#ADB" class="headerlink" title="ADB"></a>ADB</h3><blockquote>
 <p>Adb——安卓调试桥</p>
 </blockquote>
 <ol>
@@ -225,14 +315,14 @@
 <p>插上数据线~授权，再输入<strong>adb devices</strong></p>
 <p>如果输出的是你的序列号+offline，那么就成功了~</p>
 <p>注：末尾的offline表示是连接正常，不是offline就可能失败了</p>
-<h2 id="Bootloader锁"><a href="#Bootloader锁" class="headerlink" title="Bootloader锁"></a>Bootloader锁</h2><p>这个叫Bootloader锁的东西，我们一般称它为bl锁。</p>
+<h3 id="Bootloader锁"><a href="#Bootloader锁" class="headerlink" title="Bootloader锁"></a>Bootloader锁</h3><p>这个叫Bootloader锁的东西，我们一般称它为bl锁。</p>
 <p>为什么他后面有个锁字呢？</p>
 <p>当然，他锁住了我们搞♂机的脚步，</p>
 <p>╰（‵□′）╯岂可修，你可能想问为什么要这样呢？</p>
 <p>那当然是厂商的******************</p>
 <p>首先去百度下你的手机品牌+bootloader吧。</p>
 <p>不解锁一切都是空谈（；´д｀）ゞ</p>
-<h2 id="Magisk"><a href="#Magisk" class="headerlink" title="Magisk"></a>Magisk</h2><p>Magisk这个框架绝对够你用一辈子了</p>
+<h3 id="Magisk"><a href="#Magisk" class="headerlink" title="Magisk"></a>Magisk</h3><p>Magisk这个框架绝对够你用一辈子了</p>
 <p>Magisk Hide可以隐藏Root！！</p>
 <p>或许你不知道这是什么概念</p>
 <p>这样跟你说吧</p>
@@ -255,13 +345,14 @@
 <p>好了，返回主页面，往下滑进行刷新</p>
 <p>OK(￣▽￣)”已经可以了</p>
 <p>注意：下面的所有操作都是建立在已经解锁bootloader的情况下进行的！（除了直接Root安装</p>
-<h2 id="Magisk的rec安装"><a href="#Magisk的rec安装" class="headerlink" title="Magisk的rec安装"></a>Magisk的rec安装</h2><p>rec：recovery</p>
+<h4 id="Magisk的rec安装"><a href="#Magisk的rec安装" class="headerlink" title="Magisk的rec安装"></a>Magisk的rec安装</h4><p>rec：recovery</p>
 <p>你可以理解为系统的PE，拥有最高的权限</p>
 <p>在rec下我劝各位年轻人不要乱搞，好自为之！</p>
 <p>否则手机成砖了，我可不管<del>(￣▽￣)</del>*</p>
 <p>首先将magisk的zip包下载到手机中（magisk默认保存目录是在Download，</p>
 <p>然后在搜索引擎上搜索并下载到自己机型的第三方rec，</p>
-<p>或者你可以在TWRP官网碰碰运气：<em>twrp官网：[<a href="http://blaleela.com/9fFm],%E8%BF%9B%E5%85%A5%E5%90%8E%E7%82%B9%E5%87%BBDevices%EF%BC%8C%E5%9C%A8%E9%87%8C%E9%9D%A2%E6%89%BE%E6%89%BE%E4%BD%A0%E7%9A%84%E6%89%8B%E6%9C%BA%E5%90%A7">http://blaleela.com/9fFm],进入后点击Devices，在里面找找你的手机吧</a>~</em></p>
+<p>或者你可以在TWRP官网碰碰运气：_twrp官网：<a href="http://blaleela.com/9fFm">http://blaleela.com/9fFm</a></p>
+<p><em>进入后点击Devices，在里面找找你的手机吧~</em></p>
 <p>下载后，将你的adb打开，输入以下命令：</p>
 <blockquote>
 <p>adb reboot bootloader</p>
@@ -272,7 +363,7 @@
 <p>然后，如果你的rec是英文的话就该点击<strong>Install</strong>，中文则该是<strong>安装</strong></p>
 <p>点击后，选择你下载的magisk压缩包，等待完成，重启。</p>
 <p>重启就可以进入magisk看到已安装啦~</p>
-<h2 id="Magisk的修补镜像安装"><a href="#Magisk的修补镜像安装" class="headerlink" title="Magisk的修补镜像安装"></a>Magisk的修补镜像安装</h2><p>这个的话，就必须找到你手机的boot，</p>
+<h4 id="Magisk的修补镜像安装"><a href="#Magisk的修补镜像安装" class="headerlink" title="Magisk的修补镜像安装"></a>Magisk的修补镜像安装</h4><p>这个的话，就必须找到你手机的boot，</p>
 <p>一般将你的手机刷机的压缩文件解包一下就能看到，</p>
 <p>拥有不确定性，不推荐尝试！</p>
 <p>正文：</p>
@@ -301,7 +392,7 @@
 </li>
 </ul>
 <p>总之还是挺简单的，但别急，接下来的更简单！</p>
-<h2 id="Magisk的直接安装"><a href="#Magisk的直接安装" class="headerlink" title="Magisk的直接安装"></a>Magisk的直接安装</h2><p>直接安装，刚刚做完上面操作的你是不是想骂娘了</p>
+<h4 id="Magisk的直接安装"><a href="#Magisk的直接安装" class="headerlink" title="Magisk的直接安装"></a>Magisk的直接安装</h4><p>直接安装，刚刚做完上面操作的你是不是想骂娘了</p>
 <p>2333o(<em>￣▽￣</em>)ブ先别急，这个操作仅限于个别自带root的系统</p>
 <p>操作更是简单：</p>
 <ul>
@@ -314,7 +405,7 @@
 </ul>
 <p>当然这<strong>仅限于个别自带root的系统</strong></p>
 <p>并且有可能你的系统的root权限没有给完整也有可能无法直接安装</p>
-<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p>总之，rec安装是我觉得风险最小的安装方法。</p>
+<h1 id="End"><a href="#End" class="headerlink" title="End"></a>End</h1><p>总之，rec安装是我觉得风险最小的安装方法。</p>
 <p>如果大家还想看什么搞机的文章啊，请给我发邮件哦~</p>
 <p>还有</p>
 <p><strong>不要去下载什么一键root</strong></p>
